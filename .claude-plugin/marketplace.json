@@ -1,0 +1,11 @@
+{
+  "name": "claude-dashboard",
+  "description": "A reusable Claude Code dashboard for session commands and project scripts.",
+  "owner": { "name": "Lyell" },
+  "plugins": [{
+    "name": "project-dashboard",
+    "source": "./",
+    "description": "Browse session skills and safely build project script commands.",
+    "version": "0.1.0"
+  }]
+}
