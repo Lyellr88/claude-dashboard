@@ -1,6 +1,6 @@
 # Claude Dashboard
 
-A private Claude Code plugin that opens a reusable project dashboard with /dash. The Skills tab lists the current session's slash commands. The Scripts tab inspects a project's scripts folder and builds commands from PowerShell's own parameter metadata.
+A reusable Claude Code plugin that opens a project dashboard with /dash. The Skills tab lists the current session's slash commands. The Scripts tab inspects a project's scripts folder and builds commands from PowerShell's own parameter metadata.
 
 The repository is named claude-dashboard. The installed plugin is named project-dashboard.
 
@@ -28,7 +28,7 @@ Then enter /dash.
 
 ## Install for every project
 
-Clone this private repository to a stable folder outside any game or application repository. Add it as a local marketplace and install the plugin for the user:
+Clone this repository to a stable folder outside any game or application repository. Add it as a local marketplace and install the plugin for the user:
 
     claude plugin marketplace add C:\path\to\claude-dashboard
     claude plugin install project-dashboard@claude-dashboard --scope user
