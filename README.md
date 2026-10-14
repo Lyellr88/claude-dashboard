@@ -1,5 +1,9 @@
 # Claude Dashboard
 
+<p align="center">
+  <img src="assets/dashboard-hero-compact.png" alt="Claude Dashboard showing Skills, Scripts, and a command preview" width="920" />
+</p>
+
 A reusable Claude Code plugin that opens a project dashboard with /dash. The Skills tab lists the current session's slash commands. The Scripts tab inspects a project's scripts folder and builds commands from PowerShell's own parameter metadata.
 
 The repository is named claude-dashboard. The installed plugin is named project-dashboard.
